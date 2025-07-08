@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para ti, mi amor ❤️</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Falling Hearts Animation -->
+    <div class="falling-hearts"></div>
+
+    <!-- Floating Roses -->
+    <div class="floating-roses-bg">
+        <div class="rose-bg rose-1">🌹</div>
+        <div class="rose-bg rose-2">🌹</div>
+        <div class="rose-bg rose-3">🌹</div>
+        <div class="rose-bg rose-4">🌹</div>
+        <div class="rose-bg rose-5">🌹</div>
+    </div>
+
+    <!-- Love Letter Container -->
+    <div class="letter-container">
+        <div class="letter-paper">
+            <!-- Header -->
+            <div class="letter-header">
+                <div class="date">
+                    <span id="current-date"></span>
+                </div>
+                <div class="hearts-decoration">
+                    <span class="heart-deco">💕</span>
+                    <span class="heart-deco">❤️</span>
+                    <span class="heart-deco">💕</span>
+                </div>
+            </div>
+
+            <!-- Love Quote -->
+            <div class="love-quote">
+                <p class="quote-text">"Feliz primer mes, te amo mucho y con todo mi corazón. Gracias por estar para mi en cada momento, gracias por cada momento lindo a tu lado, sin duda te amo eternamente"</p>
+                <div class="quote-hearts">💖</div>
+            </div>
+
+            <!-- Main Letter Content -->
+            <div class="letter-content">
+                <div class="letter-paragraph">
+                    <p>Me encanta como me haces sentir especial con los pequeños detalles. Como cuando me mandas memes random o cuando me abrazas y siento que el mundo se detiene. Eres mi persona favorita y mi lugar seguro.</p>
+                </div>
+
+                <div class="letter-paragraph">
+                    <p>Sé que esto es solo el comienzo de algo hermoso. Quiero vivir mil aventuras más contigo, reírnos hasta que nos duela la panza, ver películas abrazaditos y crear millones de recuerdos juntos.</p>
+                </div>
+
+                <div class="love-declaration">
+                    <h2>Te amo un montón 💕</h2>
+                    <p>Cada día más y más...</p>
+                </div>
+
+                <div class="letter-signature">
+                    <p>Con todo mi amor,</p>
+                    <p class="signature-name">Alison que te adora mucho 💖</p>
+                    <div class="signature-hearts">
+                        <span>💕</span>
+                        <span>❤️</span>
+                        <span>💖</span>
+                        <span>💗</span>
+                        <span>💕</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Interactive Elements -->
+            <div class="interactive-section">
+                <button class="love-button" onclick="showSurprise()">
+                    <i class="fas fa-heart"></i>
+                    Haz click para una sorpresa
+                </button>
+
+                <div class="surprise-message" id="surprise">
+                    <h3>¡Sorpresa! 🎉</h3>
+                    <p>¡Te amo mucho mucho mucho! 💕</p>
+                    <div class="explosion-hearts"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Background Music Control -->
+    <div class="music-control">
+        <button id="music-toggle" class="music-btn">
+            <i class="fas fa-music"></i>
+        </button>
+        <iframe id="youtube-music" width="0" height="0" src="https://www.youtube.com/embed/BK3Ai81QYH8?enablejsapi=1&loop=1&playlist=BK3Ai81QYH8&autoplay=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="display: none;"></iframe>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
